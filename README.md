@@ -14,29 +14,29 @@ Secure the REST Api with a security protocol like JWT or OAuth2.
 
 
 Prototype Part 3:
-Adding Elasticsearch capabilities
-Using RedisSMQ for REST API queueing
+Adding Elasticsearch capabilities.
+Using RedisSMQ for REST API queueing.
 
 
 
 **Tech-Stack Used:**
-**Java
-Maven
-Redis Server
-Elasticsearch and Kibana(Local or cloud based)
-RabbitMQ
-Run as Spring Boot Application**
+**Java.
+Maven.
+Redis Server.
+Elasticsearch and Kibana(Local or cloud based).
+RabbitMQ.
+Run as Spring Boot Application.**
 
 Querying Elasticsearch
 Run both the application i.e FinalProject and Consumer Message Queue(CMQ). CMQ application will create the indexes.
-Run POST query from Postman
-Run custom search queries as per your use case
-(Optional) For testing purpose - Inorder to test the indexes separately, Run the PUT query in Testing-ElasticSearchQueries on Kibana. This will create an index in elasticsearch
+Run POST query from Postman.
+Run custom search queries as per your use case.
+(Optional) For testing purpose - Inorder to test the indexes separately, Run the PUT query in Testing-ElasticSearchQueries on Kibana. This will create an index in elasticsearch.
 
 
 
-How to Use:
-1. Start the services, including redis, elastic search, kibana;
+How to Use:.
+1. Start the services, including redis, elastic search, kibana;.
 2. Start the SpringBoot applitions, the restful api service and elastic search service;
 3. Test the work flow, through Postman and Kibana Dev Tools
 a.Postman
