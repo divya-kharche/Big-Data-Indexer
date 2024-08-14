@@ -1,4 +1,4 @@
-Repository related to development for REST Api prototype model
+**Repository related to development for REST Api prototype model**
 
 In this project, we will develop a REST Api to parse a JSON schema model divided into three parts:
 
@@ -19,13 +19,13 @@ Using RedisSMQ for REST API queueing
 
 
 
-Tech-Stack Used:
-Java
+**Tech-Stack Used:**
+**Java
 Maven
 Redis Server
 Elasticsearch and Kibana(Local or cloud based)
 RabbitMQ
-Run as Spring Boot Application.
+Run as Spring Boot Application**
 
 Querying Elasticsearch
 Run both the application i.e FinalProject and Consumer Message Queue(CMQ). CMQ application will create the indexes.
