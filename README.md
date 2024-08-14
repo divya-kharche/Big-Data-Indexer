@@ -38,12 +38,12 @@ Run custom search queries as per your use case.
 How to Use:
 1. Start the services, including redis, elastic search, kibana;
 2. Start the SpringBoot applitions, the restful api service and elastic search service;
-3. Test the work flow, through Postman and Kibana Dev Tools
-a.Postman.
-E-tag test.
-Token test, choose Auth 2.0 and send request to Google Token Server; then, use the id_token to replace the evn var {google-id_token}.
-CRUD/ GET/ POST/ PATCH/ PUT/ DELETE.
+3. Test the work flow, through Postman and Kibana Dev Tools.
+a. Postman.
+   E-tag test.
+   Token test, choose Auth 2.0 and send request to Google Token Server; then, use the id_token to replace the evn var {google-id_token}.
+   CRUD/ GET/ POST/ PATCH/ PUT/ DELETE.
 b. Elastic Search/ Kibana.
-CRUD.
-Get object with specific conditions.
+   CRUD.
+   Get object with specific conditions.
 After this, Run the start.sh to start all the necessary services.
